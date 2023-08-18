@@ -1,0 +1,131 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.personal-info-theme{
+    color: #a8dadc;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.social-container{
+    text-align: center;
+    margin-left: 10px;
+}
+
+.card {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #e63946;
+    color: #f1faee;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+    @-webkit-keyframes logo-anim {
+    15% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    65% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    80% {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+@keyframes logo-anim {
+    15% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    65% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    80% {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+.logo-anim:hover
+{
+    -webkit-animation: logo-anim 1s ease;
+    animation: logo-anim 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+
+.logo-anim{
+    transition:all 1s ease;
+}
+
+.name:hover{
+    opacity: 0.8;
+}
+
+.name{
+    transition: 0.3s;
+}
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
